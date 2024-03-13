@@ -8,9 +8,6 @@ const ModernLoginPage = () => {
     const toggleForm = () => {
         setIsSignIn(!isSignIn);
     };
-
-
-    
     return (
         <div className="container" id="container">
             <div className={`form-container ${isSignIn ? 'sign-in' : 'sign-up'}`}>
