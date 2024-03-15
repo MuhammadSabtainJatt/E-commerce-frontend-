@@ -1,6 +1,6 @@
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import './App.scss';
-import Page from '../src/Auth/Register/index'
+import Page from '../src/Auth/Login/index'
 function App() {
   return (
    <>
