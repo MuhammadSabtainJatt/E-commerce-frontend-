@@ -26,7 +26,7 @@ export default function CustomRegister() {
             })
             .catch((error) => {
                 console.log('error', error)
-                message.error(error)
+                message.error("error")
             })
 
 
