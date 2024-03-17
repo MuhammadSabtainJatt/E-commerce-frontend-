@@ -29,7 +29,8 @@ export default function CustomLogin() {
     }
 
     return (
-        <div className="login-form">
+       <div className="body">
+         <div className="login-form">
             <div className="text">
                 Login
             </div>
@@ -48,5 +49,6 @@ export default function CustomLogin() {
                 </div>
             </form>
         </div>
+       </div>
     );
 }

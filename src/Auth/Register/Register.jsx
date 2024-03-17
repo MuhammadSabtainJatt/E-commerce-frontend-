@@ -33,7 +33,8 @@ export default function CustomRegister() {
     }
 
     return (
-        <div className="login-form">
+       <div className="body">
+         <div className="login-form">
             <div className="text">
                 Register
             </div>
@@ -56,5 +57,6 @@ export default function CustomRegister() {
                 </div>
             </form>
         </div>
+       </div>
     );
 }
