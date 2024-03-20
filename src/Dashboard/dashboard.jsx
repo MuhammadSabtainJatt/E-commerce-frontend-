@@ -1,3 +1,5 @@
+import { faChartLine, faCircleQuestion, faGear, faLock, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
   return (
    
    
-        <div className="container">
+        <div className="">
           <div className="navigation">
             <ul>
               <li>
@@ -33,7 +35,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    <ion-icon name="home-outline"></ion-icon>
+                  <FontAwesomeIcon icon={faChartLine} />
                   </span>
                   <span className="title">Dashboard</span>
                 </a>
@@ -41,7 +43,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    <ion-icon name="people-outline"></ion-icon>
+                  <FontAwesomeIcon icon={faPeopleSimple} />
                   </span>
                   <span className="title">Customers</span>
                 </a>
@@ -49,23 +51,21 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    <ion-icon name="chatbubble-outline"></ion-icon>
+                    <FontAwesomeIcon icon={faMessages} />
                   </span>
                   <span className="title">Messages</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span className="icon">
-                    <ion-icon name="help-outline"></ion-icon>
+                  <span className="icon"><FontAwesomeIcon className='mb-2' icon={faCircleQuestion} />
                   </span>
                   <span className="title">Help</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span className="icon">
-                    <ion-icon name="settings-outline"></ion-icon>
+                  <span className="icon"><FontAwesomeIcon className='mb-2' icon={faGear} />
                   </span>
                   <span className="title">Settings</span>
                 </a>
@@ -73,7 +73,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    <ion-icon name="lock-closed-outline"></ion-icon>
+                  <FontAwesomeIcon className='mb-2' icon={faLock} />
                   </span>
                   <span className="title">Password</span>
                 </a>
@@ -81,7 +81,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    <ion-icon name="log-out-outline"></ion-icon>
+                  <FontAwesomeIcon className='mb-2' icon={faRightFromBracket} />
                   </span>
                   <span className="title">Sign Out</span>
                 </a>
