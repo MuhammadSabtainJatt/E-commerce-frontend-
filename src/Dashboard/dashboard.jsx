@@ -43,7 +43,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                  <FontAwesomeIcon icon={faPeopleSimple} />
+                  {/* <FontAwesomeIcon icon={faPeopleSimple} /> */}
                   </span>
                   <span className="title">Customers</span>
                 </a>
@@ -51,23 +51,17 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    <FontAwesomeIcon icon={faMessages} />
+                    {/* <FontAwesomeIcon icon={faMessages} /> */}
                   </span>
                   <span className="title">Messages</span>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <span className="icon"><FontAwesomeIcon className='mb-2' icon={faCircleQuestion} />
+                  <span className="icon">
+                    <FontAwesomeIcon className='mb-2' icon={faCircleQuestion} />
                   </span>
-                  <span className="title">Help</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span className="icon"><FontAwesomeIcon className='mb-2' icon={faGear} />
-                  </span>
-                  <span className="title">Settings</span>
+                  <span className="title">order</span>
                 </a>
               </li>
               <li>
@@ -170,6 +164,24 @@ function App() {
                       <td>Paid</td>
                       <td><span className="status delivered">Delivered</span></td>
                     </tr>
+                    <tr>
+                      <td>Star Refrigerator</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span className="status pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                      <td>Star Refrigerator</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span className="status return">Return</span></td>
+                    </tr>
+                    <tr>
+                      <td>Star Refrigerator</td>
+                      <td>$1200</td>
+                      <td>Paid</td>
+                      <td><span className="status delivered">Delivered</span></td>
+                    </tr>
                     {/* More order rows... */}
                   </tbody>
                 </table>
@@ -181,7 +193,7 @@ function App() {
                 </div>
 
                 <table>
-                  {/* Customer rows... */}
+                  
                 </table>
               </div>
             </div>
