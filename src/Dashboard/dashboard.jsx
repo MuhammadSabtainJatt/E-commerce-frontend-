@@ -1,4 +1,4 @@
-import { faChartLine, faCircleQuestion, faGear, faLock, faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faCartShopping, faChartLine, faCircleQuestion, faComment, faEye, faGear, faLock, faMagnifyingGlass, faRightFromBracket, faSackDollar, faShop, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 
@@ -27,7 +27,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    <ion-icon name="logo-apple"></ion-icon>
+                    <FontAwesomeIcon icon={faShop} className='mb-2' />
                   </span>
                   <span className="title">Markez app</span>
                 </a>
@@ -43,7 +43,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                  {/* <FontAwesomeIcon icon={faPeopleSimple} /> */}
+              <FontAwesomeIcon icon={faUser} />
                   </span>
                   <span className="title">Customers</span>
                 </a>
@@ -51,7 +51,7 @@ function App() {
               <li>
                 <a href="#">
                   <span className="icon">
-                    {/* <FontAwesomeIcon icon={faMessages} /> */}
+                <FontAwesomeIcon icon={faComment} />
                   </span>
                   <span className="title">Messages</span>
                 </a>
@@ -64,40 +64,25 @@ function App() {
                   <span className="title">order</span>
                 </a>
               </li>
-              <li>
-                <a href="#">
-                  <span className="icon">
-                  <FontAwesomeIcon className='mb-2' icon={faLock} />
-                  </span>
-                  <span className="title">Password</span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span className="icon">
-                  <FontAwesomeIcon className='mb-2' icon={faRightFromBracket} />
-                  </span>
-                  <span className="title">Sign Out</span>
-                </a>
-              </li>
+              
             </ul>
           </div>
 
           <div className="main">
             <div className="topbar">
               <div className="toggle">
-                <ion-icon name="menu-outline"></ion-icon>
+              <FontAwesomeIcon icon={faBars} />
               </div>
 
               <div className="search">
                 <label>
                   <input type="text" placeholder="Search here" />
-                  <ion-icon name="search-outline"></ion-icon>
+                  
                 </label>
               </div>
 
               <div className="user">
-                <img src="assets/imgs/customer01.jpg" alt="" />
+              <FontAwesomeIcon icon={faUser} />
               </div>
             </div>
 
@@ -107,8 +92,8 @@ function App() {
                   <div className="numbers">1,504</div>
                   <div className="cardName">Daily Views</div>
                 </div>
-                <div className="iconBx">
-                  <ion-icon name="eye-outline"></ion-icon>
+                <div className="iconBx d-inline">
+                <FontAwesomeIcon icon={faEye} />
                 </div>
               </div>
               <div className="card">
@@ -117,7 +102,7 @@ function App() {
                   <div className="cardName">Sales</div>
                 </div>
                 <div className="iconBx">
-                  <ion-icon name="cart-outline"></ion-icon>
+                <FontAwesomeIcon icon={faCartShopping} />
                 </div>
               </div>
               <div className="card">
@@ -126,7 +111,7 @@ function App() {
                   <div className="cardName">Comments</div>
                 </div>
                 <div className="iconBx">
-                  <ion-icon name="chatbubbles-outline"></ion-icon>
+                <FontAwesomeIcon icon={faComment} />
                 </div>
               </div>
               <div className="card">
@@ -135,7 +120,7 @@ function App() {
                   <div className="cardName">Earning</div>
                 </div>
                 <div className="iconBx">
-                  <ion-icon name="cash-outline"></ion-icon>
+                <FontAwesomeIcon icon={faSackDollar} />
                 </div>
               </div>
             </div>
