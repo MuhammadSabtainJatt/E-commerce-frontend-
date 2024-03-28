@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function contact() {
     return (
-        <>
+        <div>
             <div className="container">
                 <div className="row text-center mt-5">
                     <div className="col-12">
@@ -14,7 +14,7 @@ export default function contact() {
                         </h5>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row bg-dark p-5 rounded-5">
                     <div className="col-12 col-md-6 p-5 rounded-5 " style={{backgroundColor:"lightgray" ,}}>
                         <h2 className='mb-5'>
                             Get In Touch
@@ -24,12 +24,12 @@ export default function contact() {
                         <p> <FontAwesomeIcon icon={faEnvelope} />   &nbsp;alibrother@gmail.com</p>
                         <p> <FontAwesomeIcon icon={faLocationDot} /> &nbsp;Faisalabad Pakistan</p>
                     </div>
-                    <div className="col-12 col-md-6 p-5 rounded-5 " >
-
+                    <div className="col-12 col-md-6 rounded-5 " >
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217897.62046143698!2d72.92448580884746!3d31.42375904202356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392242a895a55ca9%3A0xdec58f88932671c6!2sFaisalabad%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1711646232879!5m2!1sen!2s"  allowFullScreen="" loading="lazy" className='rounded-5' style={{width:"100%",height:"100%",border:"0"}}referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     
                 </div>
             </div>
-        </>
+        </div>
     )
 }
