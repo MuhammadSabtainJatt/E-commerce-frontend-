@@ -29,6 +29,20 @@ export default function contact() {
                     </div>
                     
                 </div>
+                <div className="row">
+                    <div className="col">
+                        <div className="row">
+                            <div className="col-12 col-md-6">
+                                
+                            </div>
+                            <div className="col-12 col-md-6"></div>
+                        </div>
+                        <div className="row">
+                            <div className="col-12 col-md-6"></div>
+                            <div className="col-12 col-md-6"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )
