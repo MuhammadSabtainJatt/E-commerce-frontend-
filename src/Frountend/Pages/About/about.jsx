@@ -27,15 +27,23 @@ export default function about() {
               THE MISSION
             </small>
             <h3>
-            At the heart of everything, we set out to offer the best quality.
+              At the heart of everything, we set out to offer the best quality.
             </h3>
           </div>
           <div className="col-12 col-md-6">
-
           </div>
         </div>
-        <div className="row mt-5 bg-dark rounded-5 shadow py-5">
-          <div className="col">
+
+        <h1 className='mt-4 mb-2 text-center' style={{ fontFamily: "sans-serif", fontWeight: "bolder" }}>How It Started</h1>
+
+        <p className='text-center w-50 mx-auto'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat sint libero iste dolorem cum dignissimos doloremque rerum tempora unde ipsum!</p>
+
+        <div className="row mt-5 shadow ">
+          <div className="col-12 col-md-6 " style={{backgroundColor:"lightgray"}}>
+hbwbjkk
+          </div>
+          <div className="col-12 col-md-6">
+
           </div>
         </div>
       </div>
