@@ -1,4 +1,4 @@
-.about-image{
+.about-image {
     background-image: url("https://www.websitedesign-service.com/wp-content/uploads/2019/11/slide-ecommerce.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -8,5 +8,13 @@
     color: white;
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
+}
+.abouttext{
+    background-color: rgb(1, 7, 29);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

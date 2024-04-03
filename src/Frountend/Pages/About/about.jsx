@@ -1,6 +1,7 @@
 import React from 'react';
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import image from "../../../Asset/Images/8e865a52091829.59040ce0693a2.jpg"
 
 export default function about() {
   return (
@@ -38,14 +39,23 @@ export default function about() {
 
         <p className='text-center w-50 mx-auto'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat sint libero iste dolorem cum dignissimos doloremque rerum tempora unde ipsum!</p>
 
-        <div className="row mt-5 shadow ">
-          <div className="col-12 col-md-6 " style={{backgroundColor:"lightgray"}}>
-hbwbjkk
+        <div className="row mt-5 " style={{ height: "90vh" }}>
+          <div className="col-12 col-md-6 p-2 abouttext" >
+            <h1 className='m-2 text-light '>
+              Vel mauris molestie dignissim
+            </h1>
+            <h5 className='my-3 mx-5 text-light '>
+              Proin eu ante vel mauris molestie dignissim non eget nunc. Integer ac massa orci. Suspendisse vulputate semper nunc eget rhoncus.
+            </h5>
+            <p className='my-3 mx-5 text-light  '>
+            Praesent vel faucibus ligula. Sed sit amet ipsum eget velit aliquet faucibus. Maecenas et odio id turpis sollicitudin pulvinar sit amet vitae augue. Phasellus nec ultricies arcu. Quisque efficitur tellus sit amet bibendum molestie. Duis id egestas odio. Phasellus lacinia ex quis faucibus tempor. Sed feugia.
+            </p>
           </div>
-          <div className="col-12 col-md-6">
-
+          <div className="col-12 col-md-6 p-0">
+            <img src={image} style={{ width: "100%", height: "90vh" }} alt="" />
           </div>
         </div>
+        haekjbhlk
       </div>
     </div>
   );
