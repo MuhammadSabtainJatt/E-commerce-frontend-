@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './Frountend/Pages/About'
+import Home from './components/Footer/index'
 
 export default function Index() {
   return (

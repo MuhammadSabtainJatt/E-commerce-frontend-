@@ -1,7 +1,11 @@
 import React from 'react'
-import Footer from './footer'
+import TopFooter from './topFooter'
+import BottomFooter from './bottomFooter'
 export default function index() {
   return (
-    <Footer />
+    <>
+      <TopFooter />
+      <BottomFooter />
+    </>
   )
 }
