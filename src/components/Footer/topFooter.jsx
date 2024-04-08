@@ -8,7 +8,7 @@ export default function footer() {
       <div className="container " style={{ minHeight: "80vh", backgroundColor: "rgb(1, 7, 29)" }}>
         <div className="row">
           <div className="col">
-            <h4 className='text-light'>
+            <h4 className='text-light text-center'>
               Subscribe To Get Offers In Your Inbox
             </h4>
             <p className='text-light'>
