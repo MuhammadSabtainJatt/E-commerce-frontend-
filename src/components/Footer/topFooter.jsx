@@ -23,7 +23,7 @@ export default function footer() {
             <div>
               <button>
                 <Link >
-                  ghh
+                  Subscribe
                 </Link>
               </button>
             </div>
