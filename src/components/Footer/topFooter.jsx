@@ -33,7 +33,7 @@ export default function footer() {
               </button>
               <button>
                 <Link >
-                Youtube
+                Other Websites
                 </Link>
               </button>
             </div>
