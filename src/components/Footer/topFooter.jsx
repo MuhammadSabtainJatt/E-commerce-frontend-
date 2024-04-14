@@ -33,7 +33,7 @@ export default function footer() {
               </button>
               <button>
                 <Link >
-                Other links
+                Other websites
                 </Link>
               </button>
             </div>
