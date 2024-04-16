@@ -33,6 +33,11 @@ export default function footer() {
               </button>
               <button>
                 <Link >
+                Twitter
+                </Link>
+              </button>
+              <button>
+                <Link >
                 Other websites
                 </Link>
               </button>
