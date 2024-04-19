@@ -28,12 +28,12 @@ export default function footer() {
               </button>
               <button>
                 <Link >
-                Instragram
+                Twitter
                 </Link>
               </button>
               <button>
                 <Link >
-                Twitter
+                Instragram
                 </Link>
               </button>
               <button>
