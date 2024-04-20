@@ -33,12 +33,12 @@ export default function footer() {
               </button>
               <button>
                 <Link >
-                Instragram
+                Other Links
                 </Link>
               </button>
               <button>
                 <Link >
-                Other Links
+                Instragram
                 </Link>
               </button>
             </div>
