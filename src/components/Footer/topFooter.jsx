@@ -36,11 +36,6 @@ export default function footer() {
                 Other Links
                 </Link>
               </button>
-              <button>
-                <Link >
-                Instragram
-                </Link>
-              </button>
             </div>
           </div>
         </div>
