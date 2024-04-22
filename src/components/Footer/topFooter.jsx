@@ -31,12 +31,7 @@ export default function footer() {
                 Twitter
                 </Link>
               </button>
-              <button>
-                <Link >
-                Other Links
-                </Link>
-              </button>
-            </div>
+                          </div>
           </div>
         </div>
       </div>
