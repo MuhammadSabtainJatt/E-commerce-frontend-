@@ -23,15 +23,26 @@ export default function footer() {
             <div>
               <button>
                 <Link >
-                Facebook
+                  Facebook
                 </Link>
               </button>
               <button>
                 <Link >
-                Twitter
+                  Twitter
                 </Link>
               </button>
-                          </div>
+              <button>
+                <Link >
+                  Instragram
+                </Link>
+              </button>
+              <button>
+                <Link >
+                  Other Websites
+                </Link>
+              </button>
+
+            </div>
           </div>
         </div>
       </div>
