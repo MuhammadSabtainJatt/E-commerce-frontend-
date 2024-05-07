@@ -23,28 +23,28 @@ export default function footer() {
               </button>
             </div>
             <div>
-              <button style={{backgroundColor:"transparent",border:"none",margin:"21px"}}>
+              <button style={{backgroundColor:"transparent",border:"none",margin:"19px"}}>
                 <Link className='text-white'>
                   <h2>
                 <FontAwesomeIcon icon={faFacebookF} />
                 </h2>
                 </Link>
               </button>
-              <button style={{backgroundColor:"transparent",border:"none",margin:"21px"}}>
+              <button style={{backgroundColor:"transparent",border:"none",margin:"19px"}}>
                 <Link className='text-white'>
                   <h2>
                 <FontAwesomeIcon icon={faTwitter} />
                   </h2>
                 </Link>
               </button>
-              <button style={{backgroundColor:"transparent",border:"none",margin:"21px"}}>
+              <button style={{backgroundColor:"transparent",border:"none",margin:"19px"}}>
                 <Link className='text-white'>
                   <h2>
                 <FontAwesomeIcon icon={faInstagram} />
                 </h2>
                 </Link>
               </button>
-              <button style={{backgroundColor:"transparent",border:"none",margin:"21px"}}>
+              <button style={{backgroundColor:"transparent",border:"none",margin:"19px"}}>
                 <Link className='text-white'>
                 <h2>
                 <FontAwesomeIcon icon={faTelegram} /></h2>
