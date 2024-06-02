@@ -39,7 +39,7 @@ export default function about() {
 
         <p className='text-center w-50 mx-auto'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat sint libero iste dolorem cum dignissimos doloremque rerum tempora unde ipsum!</p>
 
-        <div className="row mt-5 " style={{ height: "90vh" }}>
+        <div className="row mt-5 " style={{ height: "100vh" }}>
           <div className="col-12 col-md-6 p-2 abouttext" >
             <h1 className='m-2 text-light '>
               Vel mauris molestie dignissim
@@ -52,7 +52,7 @@ export default function about() {
             </p>
           </div>
           <div className="col-12 col-md-6 p-0">
-            <img src={image} style={{ width: "100%", height: "90vh" }} alt="" />
+            <img src={image} style={{ width: "100%", height: "100vh" }} alt="" />
           </div>
         </div>
         haekjbhlk
